@@ -49,7 +49,7 @@
 	<Loader />
 {:else}
 	<div class="min-h-screen bg-slate-50">
-		<DashBoardNav {name} />
+		<DashBoardNav />
 		<main class="container mx-auto px-4 py-8">
 			<h1 class="mb-6 text-3xl font-bold">Welcome back, {name}</h1>
 

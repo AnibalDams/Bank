@@ -39,9 +39,6 @@
         </div>
 
         <div class="flex items-center space-x-4">
-          <button class="text-sm text-slate-600 hover:text-slate-900">
-            {name}
-          </button>
           <button class="text-sm text-slate-600 hover:text-slate-900" on:click={()=>{
                     document.cookie = "userId=;max-age=-1;path=/;";
                     document.cookie = "fullName=;max-age=-1;path=/;";
